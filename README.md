@@ -36,7 +36,7 @@ You can change the two hotkeys on the last two lines. Simply enter whatever comb
 You can change the filename on [line 17](https://github.com/mortenmoulder/python-screenshot-to-FTP/blob/master/screengrab.py#L17). Default it will be something like `11-09-2017 23-22-50 screenshot.png`.
 
 ### Screenshot folder
-On line 18 you can change the folder location it should save files to. Alternatively remove/comment out [line 32](https://github.com/mortenmoulder/python-screenshot-to-FTP/blob/master/screengrab.py#L32) if you wish to keep the screenshots locally.
+On [line 18](https://github.com/mortenmoulder/python-screenshot-to-FTP/blob/master/screengrab.py#L18) you can change the folder location it should save files to. Alternatively remove/comment out [line 32](https://github.com/mortenmoulder/python-screenshot-to-FTP/blob/master/screengrab.py#L32) if you wish to keep the screenshots locally.
 
 ### Monitor specific screenshot
 On [line 20](https://github.com/mortenmoulder/python-screenshot-to-FTP/blob/master/screengrab.py#L20) it says `mon=-1` which basically means screenshot all the monitors you have (almost similar to your printscreen button on your keyboard). Change this to any number that Windows knows (open `desk.cpl` from Run or CMD to see your monitors), if you wish to screenshot a specific monitor.

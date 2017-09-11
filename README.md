@@ -1,5 +1,5 @@
 # python-screenshot-to-FTP
-Uploads a screenshot to a FTP when a hotkey is pressed. The hotkey can be changed into basically anything you want.
+Uploads a screenshot to an FTP server when a hotkey is pressed. The hotkey can be changed into basically anything you want.
 
 Table of contents
 =================
@@ -8,7 +8,7 @@ Table of contents
   * [Behaviour](#behaviour)
   * [Customization](#customization)
     * [Hotkeys](#hotkeys)
-    * [Name](#name)
+    * [Filename](#filename)
     * [Screenshot folder](#screenshot-folder)
     * [Monitor specific screenshot](#monitor-specific-screenshot)
   * [Compile to executable](#compile-to-executable)
@@ -32,7 +32,7 @@ To end the application, simply hit `ALT+END`.
 ### Hotkeys
 You can change the two hotkeys on the last two lines. Simply enter whatever combination you want (some might not work).
 
-### Name
+### Filename
 You can change the filename on [line 17](https://github.com/mortenmoulder/python-screenshot-to-FTP/blob/master/screengrab.py#L17). Default it will be something like `11-09-2017 23-22-50 screenshot.png`.
 
 ### Screenshot folder

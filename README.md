@@ -24,7 +24,7 @@ After installing these packages, you should edit all the FTP variables at the to
 `python screengrab.py`
 
 ## Behaviour
-As default, if you press `SHIFT+0` it takes a screenshot, saves it to `%USERPROFILE%\AppData\Local\Temp\`, uploads it to the FTP servers folder, then removes the file afterwards.
+As default, if you press `SHIFT+0` it takes a screenshot, saves it to `%USERPROFILE%\AppData\Local\Temp\`, uploads it to the FTP server's folder, then removes the file afterwards.
 
 To end the application, simply hit `ALT+END`.
 
